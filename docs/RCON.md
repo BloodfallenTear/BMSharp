@@ -1,8 +1,10 @@
 # How to execute RCON Commands via the BattleMetrics API
 
+## Request
+
 URL | Method | Authorization | Content | Content-Type
 ----|--------|---------------|---------|-------------
-`https://api.battlemetrics.com/servers/$SERVER_ID/command` | POST | Bearer | See Content| `application/json`
+`https://api.battlemetrics.com/servers/$SERVER_ID/command` | POST | Bearer | [See Content](#content) | `application/json`
 
 ### Content
 ```
