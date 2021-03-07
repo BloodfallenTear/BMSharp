@@ -1,4 +1,4 @@
-# How to execute Commands via the BattleMetrics API
+# How to execute RCON Commands via the BattleMetrics API
 
 URL | Method | Authorization | Content | Content-Type
 ----|--------|---------------|---------|-------------
