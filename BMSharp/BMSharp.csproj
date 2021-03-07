@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>BloodfallenTear</Authors>
+    <Description>A .NET Standard 2.0 library for interacting with the BattleMetrics API.</Description>
+    <Copyright>Copyright (c) 2021 BloodfallenTear</Copyright>
+    <PackageTags>battlemetrics, battlemetrics-api, bm, bm-api, dotnet, csharp, vb, fsharp, bmsharp, battlemetricssharp</PackageTags>
+    <OutputType>Library</OutputType>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <RepositoryType>Git</RepositoryType>
+    <Optimize>True</Optimize>
+    <DebugType>Portable</DebugType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;IDE0002;IDE0003;IDE0022;IDE0049;IDE0059;IDE0063;CA1822</NoWarn>
+    <Optimize>False</Optimize>
+    
+  </PropertyGroup>
+
+</Project>
