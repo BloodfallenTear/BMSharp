@@ -3,7 +3,7 @@
 ### Request
 
 URL | Method | Authorization | Content | Content-Type
-----|--------|---------------|---------|-------------
+:--:|:------:|:-------------:|:-------:|:-----------:
 `https://api.battlemetrics.com/servers/$SERVER_ID/command` | POST | Bearer | [Content](#content) | `application/json`
 
 ### Content
