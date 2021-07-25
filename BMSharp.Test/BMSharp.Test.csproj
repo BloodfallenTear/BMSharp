@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>BloodfallenTear</Authors>
+    <Copyright>Copyright (c) 2021 BloodfallenTear</Copyright>
+    <RepositoryUrl>https://github.com/BloodfallenTear/BMSharp</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>battlemetrics, battlemetrics-api, bm, bm-api, dotnet, csharp, vb, fsharp, bmsharp, battlemetricssharp</PackageTags>
+    <PackageLicenseFile>D:\VisualStudio\BMSharp\LICENSE.md</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BMSharp\BMSharp.csproj" />
+  </ItemGroup>
+
+</Project>
